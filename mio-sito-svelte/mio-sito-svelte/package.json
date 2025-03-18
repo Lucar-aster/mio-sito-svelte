@@ -1,17 +1,6 @@
-{
-  "name": "mio-sito-svelte",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-     "deploy": "gh-pages -d dist"
-  },
-  "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^5.0.3",
-    "svelte": "^5.20.2",
-    "vite": "^6.2.0"
-  }
+"scripts": {
+  "dev": "vite", 
+  "build": "vite build",  // Questo è lo script per la compilazione
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
 }
